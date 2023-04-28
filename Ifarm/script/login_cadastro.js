@@ -45,7 +45,7 @@ function cadastrar() {
             localStorage.setItem('cadastros', JSON.stringify(usuarios))
             alert('Usuário Cadastrado!')
              location.assign('Index.html')
-            // location.assign('login.html')
+            
         }else{
             alert("Cpf do usuário em uso!!")
         }
