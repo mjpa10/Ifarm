@@ -124,7 +124,7 @@ if (guarda_rua.trim().length == 0) {
     if(procura_usuarioLogin(guarda_email, guarda_senha) != -1){
         alert("Usuário validado! Bem-vindo!")
         location.assign('Index.html')
-        // location.assign('home.html')
+        
     }else{
         alert("Usuário não validado!")
     }
